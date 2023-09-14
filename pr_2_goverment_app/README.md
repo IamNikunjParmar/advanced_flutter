@@ -1,16 +1,6 @@
 # pr_2_goverment_app
 
-A new Flutter project.
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/646b724e-f9cb-4d02-bf88-08826541903b" width = "300">
 
-## Getting Started
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/0a81355d-9908-4586-a405-054ccbebd981" width = "300">
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
