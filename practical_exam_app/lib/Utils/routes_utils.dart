@@ -7,4 +7,6 @@ class MyRoutes {
 
   static String splashscreen = "splash_screen";
 
+  static String detailsPage = "detail_page";
+
 }

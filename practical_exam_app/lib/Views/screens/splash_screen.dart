@@ -46,10 +46,13 @@ class _SplashScreenState extends State<SplashScreenPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Spacer(),
-            Image(
-              image: AssetImage("assets/Gif/play.gif"),
+            Container(
+              child: Image(
+                image: AssetImage("assets/images/1.png"),
+                fit: BoxFit.cover,
+              ),
             ),
-            Text("Media Boster",
+            Text("Quotes App",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 25,
