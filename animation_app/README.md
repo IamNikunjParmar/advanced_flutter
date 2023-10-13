@@ -1,16 +1,12 @@
 # animation_app
 
-A new Flutter project.
 
-## Getting Started
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/56ff8d6c-cf5e-41ab-b189-3879f2030efd" width = "300">
 
-This project is a starting point for a Flutter application.
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/2399a865-73a3-44f3-b983-da34d43ce55c" width = "300">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/7f42c2a1-94c1-45ab-a9e8-2e794ffbb55d" width = "300">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
