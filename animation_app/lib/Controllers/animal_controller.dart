@@ -1,11 +1,19 @@
 
+import 'dart:math';
+
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class FruitController extends ChangeNotifier{
 
   List allData = ['Mango','Apple','Banana','Papaya','Kiwi','Coconut','Strawberry',];
 
   int  index = 0;
+
+  Random r = Random();
+
+  Color mycolor = Colors.grey;
+
 
   List allImages = [
 
@@ -16,9 +24,6 @@ class FruitController extends ChangeNotifier{
     "https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZydWl0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     "https://images.unsplash.com/photo-1622267224551-8063a2d4fbb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fGZydWl0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     "https://images.unsplash.com/photo-1594053335044-544892917cc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY1fHxmcnVpdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-
-
-
 
   ];
 
