@@ -1,16 +1,14 @@
 # pr_4_departure
 
-A new Flutter project.
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/178f469e-7630-44ab-b9aa-ad41cd07a4e1" width = "300">
 
-## Getting Started
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/9a1ceb0d-419e-4cf0-a5a3-cdf8a5aae48d" width = "300">
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/7d5d83aa-3f35-44ed-b2af-34680b6909ba" width = "300">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src = "https://github.com/nikunjparmar21899/advanced_flutter/assets/121547318/80c6ae62-9495-4fd6-82a6-252e616f4d01" width = "300">
+
+
+
