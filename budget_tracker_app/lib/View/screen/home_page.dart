@@ -1,4 +1,6 @@
+import 'package:budget_tracker_app/Controllers/db_controller.dart';
 import 'package:budget_tracker_app/Controllers/navigation_controller.dart';
+import 'package:budget_tracker_app/Modals/student_modal.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -12,10 +14,88 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     NavigationController naviController = Get.put(NavigationController());
+    DbController dbController = Get.find();
 
     return Scaffold(
       appBar: AppBar(
         backgroundColor:const Color(0xff150D56),
+        iconTheme: const IconThemeData(
+          color: Colors.white,
+        ),
+      ),
+      drawer:  Drawer(
+        child: ListView(
+          padding:  const EdgeInsets.all(0),
+          children: [
+             const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Color(0xff150D56),
+              ), //BoxDecoration
+              child: UserAccountsDrawerHeader(
+                decoration: BoxDecoration(
+                    color: Color(0xff150D56)),
+                accountName: Text(
+                  "Nikunj Parmar",
+                  style: TextStyle(fontSize: 18),
+                ),
+                accountEmail: Text("nikunjparmar5066@gmail.com"),
+                currentAccountPictureSize: Size.square(40),
+                currentAccountPicture: CircleAvatar(
+                  backgroundColor: Colors.indigo,
+                  child: Text(
+                    "N",
+                    style: TextStyle(
+                        fontSize: 25.0, color: Colors.white
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            ListTile(
+              leading: const Icon(Icons.person),
+              title: const Text(' My Profile '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.book),
+              title: const Text(' My Course '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.workspace_premium),
+              title: const Text(' Go Premium '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.settings),
+              title: const Text(' Setting '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.edit),
+              title: const Text(' Edit Profile '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.logout),
+              title: const Text('LogOut'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        )
+        
       ),
       bottomNavigationBar:  Obx(
          () {
@@ -34,7 +114,7 @@ class HomePage extends StatelessWidget {
                   blurRadius: 8,
               ),
             ],
-            curve: Curves.easeOutExpo,
+            curve: Curves.easeInOut,
             duration: const Duration(
                 milliseconds: 800
             ),
@@ -74,19 +154,22 @@ class HomePage extends StatelessWidget {
           );
         }
       ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: const Color(0xff150D56),
+        foregroundColor: Colors.white,
+        child: const Icon(Icons.add),
+        onPressed: () {
+
+          Student student = Student("vishal", "Flutter", 20);
+
+        },
+      ),
       body: PageView(
         controller: naviController.pageController,
         onPageChanged: (index) {
           naviController.changeIndex(index: index);
         },
-        children: [
-          Icon(Icons.home),
-          Icon(Icons.category_outlined),
-          Icon(Icons.bar_chart_sharp),
-          Icon(Icons.person),
-
-
-        ],
+        children: naviController.pages
       ),
     );
   }

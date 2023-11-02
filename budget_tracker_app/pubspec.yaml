@@ -39,6 +39,8 @@ dependencies:
   gap: ^3.0.1
   sqflite: ^2.2.8+4
   google_nav_bar: ^5.0.6
+  path: ^1.8.2
+  logger: ^2.0.2+1
 
 dev_dependencies:
   flutter_test:
