@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58378210121",
+    "project_id": "liked-app-1b792",
+    "storage_bucket": "liked-app-1b792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58378210121:android:d5120ae53e1b9718856898",
+        "android_client_info": {
+          "package_name": "com.example.prectical_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3mEPPHkIUNd7GNOeOHLtvuQpzaRbFOcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
