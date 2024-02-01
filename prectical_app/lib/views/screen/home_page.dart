@@ -73,7 +73,30 @@ class HomePage extends StatelessWidget {
                                                       const InputDecoration(
                                                     hintText: 'Enter title',
                                                   ),
-                                                )
+                                                ),
+                                                Row(
+                                                  children: [
+                                                    ElevatedButton(
+                                                        onPressed: () {
+                                                          FbHelper.fbHelper
+                                                              .updateUser(
+                                                                  myModal:
+                                                                      modal);
+                                                        },
+                                                        child:
+                                                            const Text("Done")),
+                                                    const Spacer(),
+                                                    ElevatedButton(
+                                                      onPressed: () {
+                                                        FbHelper.fbHelper
+                                                            .deleteUser(
+                                                                myModal: modal);
+                                                      },
+                                                      child:
+                                                          const Text("cancle"),
+                                                    ),
+                                                  ],
+                                                ),
                                               ],
                                             ),
                                           );
